@@ -4,6 +4,9 @@ import csv
 import requests
 from datetime import datetime, timedelta
 import pandas as pd
+import matplotlib
+# use a non-interactive backend for environments without a display (containers, CI)
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
 
